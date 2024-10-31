@@ -27,7 +27,7 @@ install it.
 Clone a copy of the repository to your machine:
 
 ```
-git clone abcdef!!!
+git clone https://github.com/peter-woodcock/junior-tech-test.git
 ```
 
 To activate the virtual environment and install the required packages, run the following commands in the root folder of 
