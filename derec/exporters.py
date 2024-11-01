@@ -18,6 +18,8 @@ class Country:
         self.exports = {}
 
     def __str__(self):
+        if self.GdpGrowthRate is None:
+            return f"{self.Name}: (GDP Growth Rate Unavailable)"
         return f"{self.Name} (GDP Growth Rate: {self.GdpGrowthRate}%)"
     
     def add(self, export):
